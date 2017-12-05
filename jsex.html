@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8">
+        <title>jsexercise</title>
+      </head>
+      <body>
+        <p id="zero"</p>
+
+        <script>
+        function myFunction(p1)  {
+          return p1 * p1;
+        }
+          document.getElementById("zero").innerHTML = myFunction(5);
+
+
+</script>
+
+
+
+
+
+
+<p id="hi"></p>
+<script>
+function myFunction(p1,p2)  {
+  return p1 + p2;
+}
+document.getElementById("hi").innerHTML =myFunction(5, 6);
+
+</script>
+
+
+<p id="dum"></p>
+
+<script>
+function myFunction(p1, p2) {
+    return p1 * p2;
+}
+document.getElementById("dum").innerHTML = myFunction(4, 3);
+</script>
+
+
+<p id="hello"></p>
+<script>
+function myFunction(d1, d2)  {
+  return d1 - d2;
+}
+
+document.getElementById("hello").innerHTML =myFunction(10, 6);
+</script>
+
+
+<script>
+window.alert("hello world!");
+</script>
+
+
+
+<p id="dell"> </P>
+  <script>
+  function calcuboid(l,w,h) {
+    return l * w * h;
+  }
+document.getElementById("dell").innerHTML=calcuboid(5, 3, 2)
+</script>
+<p id="dello"></p>
+
+<script>
+var person={fname:"Nimal", lname:"Raj.", age:15, from:"Kandy"};
+
+document.getElementById("dello").innerHTML =
+"My name is" + " " + person.fname + " " + person.lname + " " + "I'm" + person.age + " years old." +  " " +  "I live" + " " + "in" + " "+ person.from;
+</script>
+
+
+
+
+
+<p id="cour"></p>
+<p id="c"></p>
+<p id="o"></p>
+<p id="u"></p>
+<script>
+var course = {courseName:"BIT", courseFee:"Rs 150 000", startDate:"12.06.2018", center:"Our Office"};
+document.getElementById("cour").innerHTML="Course Name: " + course.courseName;
+document.getElementById("c").innerHTML="Course Fee: " + course.courseFee;
+document.getElementById("o").innerHTML="Start Date: " + course.startDate;
+document.getElementById("u").innerHTML="Center: " + course.center;
+</script>
+
+
+</body>
+</html>
